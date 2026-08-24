@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#07070a" />
+    <meta name="description" content="reay.io — something luminous is taking shape." />
+    <title>reay.io</title>
+  </head>
+  <body>
+    <canvas id="opalescence" aria-hidden="true"></canvas>
+
+    <div class="atmosphere" aria-hidden="true">
+      <span class="orb orb-a"></span>
+      <span class="orb orb-b"></span>
+      <span class="orb orb-c"></span>
+    </div>
+
+    <header class="controls">
+      <div class="theme-switch" role="group" aria-label="Color theme">
+        <span class="switch-glider" aria-hidden="true"></span>
+        <button class="theme-option" data-theme-choice="light" type="button" aria-label="Use light theme" aria-pressed="false">
+          <span class="sun-icon" aria-hidden="true"></span>
+        </button>
+        <button class="theme-option" data-theme-choice="dark" type="button" aria-label="Use dark theme" aria-pressed="false">
+          <span class="moon-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <h1 class="sr-only">reay.io</h1>
+      <div class="scene" aria-hidden="true">
+        <div class="logo-stack" id="logo-stack">
+          <pre class="ascii master">          .s$$$s.         .s$$$$$$$$s.      .s$$$$$$$s.      $$s.       .s$$
+ s$$$$$$$$$$$$$$$$s.    s$$$$$$$$$$$$$$s. s$$$$$$$$$$$$$     $$$$s.   .s$$$$    .s.  $$   .s$$$$$$s.
+ $$$$S&quot;&quot;&quot;&quot;&quot;&quot;S$$$$$$$   $$$$$S&quot;&quot;&quot;&quot;S$$$$$$ $$$$$S&quot;&quot;&quot;&quot;S$$$$$    `$$$$$s.s$$$$$'    `$$' $$ .$$$$S&quot;&quot;S$$$$.
+ $$$$          $$$$$  $$$$$'       $$$$$ `&quot;&quot;&quot;&quot;       $$$$$     `$$$$$$$$$$$'          $$ $$$$      $$$$
+ $$$$      .s$$$$$S'  $$$$$$$$$$$$$$$$$$   .s$$$$$$$$$$$$$       `$$$$$$$$'       $$  $$ $$$$      $$$$
+ $$$$$$$$$$$$$$$S'    $$$$$S&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot; s$$$$S&quot;&quot;&quot;&quot;&quot;&quot;$$$$$        `$$$$$$'        $$  $$ $$$$      $$$$
+ $$$$  `S$$$$s.       $$$$$s.........    $$$$$        $$$$$          $$$$          $$  $$ `$$$$s..s$$$$'
+ $$$$     `$$$$$s.     $$$$$$$$$$$$$$$$  `$$$$$ssss$$$$$$$$          $$$$          $$  $$   `S$$$$$$S'
+ `SS'        `SSS'       `SS$$$$$$$SS'     `SS$$$$$$SS'`SS          `SS'          `S' `S'     `SS'</pre>
+        </div>
+        <div class="floor-glow"></div>
+      </div>
+    </main>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
