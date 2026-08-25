@@ -1,6 +1,6 @@
 # reay.io
 
-A full-viewport, static placeholder for `reay.io`, built with hand-drawn ANSI-style lettering, a WebGL opalescent shader, responsive 3D depth, and persistent light/dark themes.
+A full-viewport, static placeholder for `reay.io` displaying original ANSI artwork by Fable.
 
 ## Local development
 
@@ -17,4 +17,4 @@ npm run build
 
 The static site is emitted to `dist/`. Pushes to `main` are automatically built and published with GitHub Pages. The custom domain is declared in `public/CNAME`.
 
-Six static ANSI compositions are available through `?design=1` to `?design=6`. The default is design 1; designs 1–3 and 5–6 are lowercase, while design 4 is consistently uppercase.
+The original ANSI file is published alongside its pixel-perfect rendered image at `public/chrome.ans` and `public/chrome.png`.
