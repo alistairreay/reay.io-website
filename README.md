@@ -1,6 +1,6 @@
 # reay.io
 
-A full-viewport, static placeholder for `reay.io` featuring custom ANSI artwork, a responsive spectral treatment, and light/dark themes.
+A full-viewport, static placeholder for `reay.io` featuring custom ANSI artwork and a responsive spectral treatment on a seamless black canvas.
 
 ## Local development
 
