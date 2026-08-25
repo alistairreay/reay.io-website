@@ -1,6 +1,6 @@
 # reay.io
 
-A full-viewport, static placeholder for `reay.io` displaying original ANSI artwork by Fable.
+A full-viewport, static placeholder for `reay.io` featuring custom ANSI artwork, a responsive spectral treatment, and light/dark themes.
 
 ## Local development
 
